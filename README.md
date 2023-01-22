@@ -13,7 +13,17 @@ To write a program to find the GCD of two numbers using function.
 3. Compare the two values, to find the smaller number.
 4. Use for() and if() loop to find the GCD of the two numbers.
 
-## Program:
+## Program:def gcd():
+    n=int(input())
+    m=int(input())
+    if(m>n):
+        min=m
+    else:
+        min=n
+    for i in range(1,min+1):
+        if(n%i==0 and m%i==0):
+            o=i
+    print("GCD of two numbers is:",o)
 ```
 /*
 Program to find the gcd of two number using function.
@@ -22,8 +32,9 @@ RegisterNumber:
 */
 ```
 
-## Output:
-![gcd of two number](gcd.png)
+## Output:![EX02 A OP](https://user-images.githubusercontent.com/119393818/213912677-9144a997-7646-4895-9c3c-93ca8c79ed13.png)
+
+
 
 
 ## Result:
